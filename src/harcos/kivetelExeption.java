@@ -9,13 +9,10 @@ package harcos;
  *
  * @author Szucs.R.David
  */
-public class harcos extends karakter{
-    int ero,ugyesseg;
+public class kivetelExeption extends Exception{
 
-    public harcos(int ero, int ugyesseg, String nev) {
-        super(nev, "ember");
-        this.ero = ero;
-        this.ugyesseg = ugyesseg;
+    public kivetelExeption(String szoveg ) {
+        super(szoveg);
     }
     
     
