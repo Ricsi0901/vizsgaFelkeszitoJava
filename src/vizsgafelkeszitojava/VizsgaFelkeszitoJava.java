@@ -3,14 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package vizsgafelkeszitojava.harcos;
+package vizsgafelkeszitojava;
 
 /**
  *
  * @author Szucs.R.David
  */
-public class JatekTer {
+public class VizsgaFelkeszitoJava {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        
+        // TODO code application logic here
     }
+    
 }
