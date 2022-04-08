@@ -9,6 +9,14 @@ package harcos;
  *
  * @author Szucs.R.David
  */
-public class harcos {
+public class harcos extends karakter{
+    int ero,ugyesseg;
+
+    public harcos(int ero, int ugyesseg, String nev) {
+        super(nev, "ember");
+        this.ero = ero;
+        this.ugyesseg = ugyesseg;
+    }
+    
     
 }

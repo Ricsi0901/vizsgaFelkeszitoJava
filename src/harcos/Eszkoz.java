@@ -10,5 +10,10 @@ public class Eszkoz {
         this.nev = nev;
         this.suly = suly;
     }
+
+    @Override
+    public String toString() {
+        return "Eszkoz{" + "nev=" + nev + ", suly=" + suly + '}';
+    }
      
 }
